@@ -8427,3 +8427,32 @@ java.lang.ClassNotFoundException: net.minecraft.client.resources.sounds.Abstract
 [11Jun2025 14:57:41.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [lafracio: Set own game mode to Creative Mode]
 [11Jun2025 14:58:10.386] [Server thread/WARN] [minecolonies/]: Writing Recipe Manager: 0 recipes!
 [11Jun2025 14:58:11.602] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lafracio moved too quickly! 1.7015476750213239,-5.873220676211545,8.405224079788596
+[11Jun2025 15:00:20.301] [Worker-Main-5/WARN] [ModernFix/]: The namespace ars_elemental contains an outdated structure file, which can cause worldgen lag. Please view debug.log for the full filename, determine which mod provides the structure, and report to the mod/datapack author, including the debug log.
+[11Jun2025 15:00:24.547] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4740ms or 94 ticks behind
+[11Jun2025 15:01:11.982] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2725ms or 54 ticks behind
+[11Jun2025 15:01:42.315] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lafracio lost connection: Disconnected
+[11Jun2025 15:01:42.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio left the game
+[11Jun2025 15:01:46.824] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 19866ms or 397 ticks behind
+[11Jun2025 15:02:01.012] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4a10f941
+[11Jun2025 15:02:01.165] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: lafracio[/127.189.239.53:51693] logged in with entity id 2941 at (6818.944109670274, 65.45008619597202, 10262.341917485148)
+[11Jun2025 15:02:01.171] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to lafracio
+[11Jun2025 15:02:01.173] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to lafracio
+[11Jun2025 15:02:01.173] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to lafracio
+[11Jun2025 15:02:01.174] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to lafracio
+[11Jun2025 15:02:01.178] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to lafracio
+[11Jun2025 15:02:01.180] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to lafracio
+[11Jun2025 15:02:01.183] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to lafracio
+[11Jun2025 15:02:01.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio joined the game
+[11Jun2025 15:02:01.627] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: lafracio
+[11Jun2025 15:03:34.471] [Worker-Main-5/WARN] [ModernFix/]: The namespace betterdeserttemples contains an outdated structure file, which can cause worldgen lag. Please view debug.log for the full filename, determine which mod provides the structure, and report to the mod/datapack author, including the debug log.
+[11Jun2025 15:03:39.109] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lafracio moved too quickly! 10.868746110403663,0.0,-0.6142359945897624
+[11Jun2025 15:04:09.615] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
+[11Jun2025 15:06:57.691] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lafracio moved too quickly! -5.077079873311163,3.7495620159106835,-9.008173327969246
+[11Jun2025 15:07:36.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio fell from a high place
+[11Jun2025 15:07:36.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio has made the advancement [Your First Grave]
+[11Jun2025 15:07:36.617] [Server thread/INFO] [tombstone/]: The player lafracio has successfully been saved
+[11Jun2025 15:07:38.042] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[11Jun2025 15:08:37.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio has made the advancement [Sky of Beginning]
+[11Jun2025 15:09:22.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio has made the advancement [Luscious Surroundings]
+[11Jun2025 15:11:03.319] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lafracio lost connection: Disconnected
+[11Jun2025 15:11:03.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio left the game

@@ -6,31 +6,13 @@
     },
     "done": true
   },
-  "immersivepetroleum:recipes/immersivepetroleum/upgrade_rudders": {
+  "farmersdelight:recipes/farmersdelight/cooking/chicken_soup": {
     "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:42 +0000"
-    },
-    "done": true
-  },
-  "modonomicon:modonomicon/root": {
-    "criteria": {
-      "modonomicon_present": "2025-06-11 14:56:44 +0000"
-    },
-    "done": true
-  },
-  "mcwfences:recipes/deepslate": {
-    "criteria": {
-      "has_deepslate": "2025-06-11 14:58:04 +0000"
+      "has_any_ingredient": "2025-06-11 15:09:34 +0000"
     },
     "done": true
   },
   "aquaculture:recipes/aquaculture/note_hook": {
-    "criteria": {
-      "has_items": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/misc/tin_can_to_iron_nugget_from_blasting": {
     "criteria": {
       "has_items": "2025-06-11 14:58:04 +0000"
     },
@@ -42,9 +24,9 @@
     },
     "done": true
   },
-  "immersivepetroleum:recipes/immersivepetroleum/paraffin_wax_to_block": {
+  "toolbelt:recipes/pouch": {
     "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:42 +0000"
+      "has_leather": "2025-06-11 15:06:44 +0000"
     },
     "done": true
   },
@@ -54,9 +36,842 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-06-11 15:06:44 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/chicken_and_dumplings": {
+    "criteria": {
+      "has_chicken": "2025-06-11 15:09:34 +0000"
+    },
+    "done": true
+  },
+  "bambooeverything:recipes/bamboo_door": {
+    "criteria": {
+      "has_bundle": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/beef_jerky": {
+    "criteria": {
+      "has_beef": "2025-06-11 15:06:12 +0000"
+    },
+    "done": true
+  },
+  "bambooeverything:recipes/dry_bamboo_stairs": {
+    "criteria": {
+      "has_dry_bundle": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/fried_chicken": {
+    "criteria": {
+      "has_chicken": "2025-06-11 15:09:34 +0000"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/speedboat": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:56:42 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_byg_cypress_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_byg_embur_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-06-11 15:08:49 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/burrito": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 15:06:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-06-11 15:07:57 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_byg_cherry_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/golden_fishing_rod": {
+    "criteria": {
+      "has_vanilla_rod": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/apothecary_default": {
+    "criteria": {
+      "has_item": "2025-06-11 15:08:49 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/stone": {
+    "criteria": {
+      "has_stone": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/food/cooked_fish_fillet_from_campfire": {
+    "criteria": {
+      "has_items": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/petal_gray": {
+    "criteria": {
+      "has_item": "2025-06-11 15:08:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_grill_cooking": {
+    "criteria": {
+      "has_beef": "2025-06-11 15:06:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-06-11 15:07:57 +0000"
+    },
+    "done": true
+  },
+  "energymeter:recipes/energymeter/meter": {
+    "criteria": {
+      "has_item": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/projector": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:56:43 +0000"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/asphalt_stair": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:56:43 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/jungle": {
+    "criteria": {
+      "has_jungle": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/cooked_beef": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 15:06:12 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/oak": {
+    "criteria": {
+      "has_oak": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/spruce": {
+    "criteria": {
+      "has_spruce": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/hedge": {
+    "criteria": {
+      "has_birch": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/end": {
+    "criteria": {
+      "has_end_brick": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_key": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 15:07:38 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/silentgear/dried_sinew": {
+    "criteria": {
+      "has_item": "2025-06-11 15:06:44 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/misc/neptunium_ingot_from_nuggets": {
+    "criteria": {
+      "has_items": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/oxidized_copper_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:56:42 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_byg_skyris_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/cheeseburger": {
+    "criteria": {
+      "has_beef": "2025-06-11 15:06:12 +0000"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/exposed_copper_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:56:43 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_transformation_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/upgrade_crafting": {
+    "criteria": {
+      "has_wct": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/ae": {
+    "criteria": {
+      "has_wit": "2025-06-11 14:58:04 +0000",
+      "has_wpt": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersiveengineering/toolupgrade_drill_lube": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:56:43 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_byg_palm_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/misc/gold_nugget_from_gold_fish": {
+    "criteria": {
+      "has_items": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_sapling": {
+    "criteria": {
+      "has_recipe": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-06-11 15:06:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/flower_bag": {
+    "criteria": {
+      "has_item": "2025-06-11 15:08:38 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2025-06-11 15:07:36 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_fishing_rod": "2025-06-11 14:58:04 +0000",
+      "has_fillet_knife": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "naturalist:recipes/food/cooked_egg": {
+    "criteria": {
+      "has_eggs": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "toolbelt:recipes/belt": {
+    "criteria": {
+      "has_leather": "2025-06-11 15:06:44 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/worm_farm": {
+    "criteria": {
+      "has_items": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_byg_nightshade_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_canopy_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/food/cooked_fish_fillet_from_smoking": {
+    "criteria": {
+      "has_items": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "bambooeverything:recipes/bamboo_fence_gate": {
+    "criteria": {
+      "has_bamboo": "2025-06-11 14:58:04 +0000",
+      "has_bundle": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/root": {
+    "criteria": {
+      "occultism_present": "2025-06-11 14:56:44 +0000"
+    },
+    "done": true
+  },
+  "bambooeverything:recipes/dry_bamboo_bundle_uncrafting": {
+    "criteria": {
+      "has_dry_bundle": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_dark_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-06-11 15:06:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-06-11 15:06:44 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_twilight_oak_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-06-11 15:09:34 +0000"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/asphalt": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:56:43 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/decorations/spruce_fish_mount": {
+    "criteria": {
+      "has_items": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_byg_willow_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/misc/neptunium_ingot_from_neptunium_block": {
+    "criteria": {
+      "has_items": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/root": {
+    "criteria": {
+      "flower": "2025-06-11 15:08:37 +0000"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/exposed_cut_copper_stairs_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:56:42 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/light_hook": {
+    "criteria": {
+      "has_items": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "bambooeverything:recipes/bamboo_bundle": {
+    "criteria": {
+      "has_bamboo": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "botania:main/flower_pickup_lexicon": {
+    "criteria": {
+      "flower": "2025-06-11 15:08:38 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_byg_ether_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_byg_pine_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "bambooeverything:recipes/bamboo_trapdoor": {
+    "criteria": {
+      "has_bundle": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "bambooeverything:recipes/dry_bamboo_trapdoor": {
+    "criteria": {
+      "has_dry_bundle": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/petcoke_block_to_items": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:56:42 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/misc/jellyfish_to_slimeball": {
+    "criteria": {
+      "has_items": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_byg_baobab_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/apothecary_mossy": {
+    "criteria": {
+      "has_item": "2025-06-11 15:08:49 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/nether": {
+    "criteria": {
+      "has_nether_brick": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-06-11 15:07:57 +0000"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/oxidized_cut_copper_stairs_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:56:43 +0000"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/exposed_cut_copper_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:56:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-06-11 15:07:57 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/misc/red_mushroom_from_fish": {
+    "criteria": {
+      "has_items": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/diamond_fishing_rod": {
+    "criteria": {
+      "has_vanilla_rod": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/crimson": {
+    "criteria": {
+      "has_crimson": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/iron_fishing_rod": {
+    "criteria": {
+      "has_vanilla_rod": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-06-11 15:04:26 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/bamboo": {
+    "criteria": {
+      "has_bamboo": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/prismarine": {
+    "criteria": {
+      "has_qq": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/petcoke_items_to_block": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:56:43 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/decorations/acacia_fish_mount": {
+    "criteria": {
+      "has_items": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/pork_jerky": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 15:06:12 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/misc/brown_mushroom_from_fish": {
+    "criteria": {
+      "has_items": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "bambooeverything:recipes/dry_bamboo_fence_gate": {
+    "criteria": {
+      "has_dry_bundle": "2025-06-11 14:58:04 +0000",
+      "has_dry_bamboo": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_byg_cika_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "sebastrnlib:grant_book_on_first_join": {
+    "criteria": {
+      "tick": "2025-06-11 14:56:44 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-06-11 15:06:44 +0000"
+    },
+    "done": true
+  },
+  "bambooeverything:recipes/bamboo_ladder": {
+    "criteria": {
+      "has_bamboo": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/pink_petal_block": {
+    "criteria": {
+      "has_item": "2025-06-11 15:08:49 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_byg_redwood_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_fishing_rod": "2025-06-11 14:58:04 +0000",
+      "has_fillet_knife": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/apothecary_deepslate": {
+    "criteria": {
+      "has_item": "2025-06-11 15:08:49 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/building_blocks/planks_from_driftwood": {
+    "criteria": {
+      "has_items": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/quartz": {
+    "criteria": {
+      "has_qq": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2025-06-11 14:56:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2025-06-11 15:06:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/conversions/pink_petal_block_deconstruct": {
+    "criteria": {
+      "has_item": "2025-06-11 15:08:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-06-11 15:09:34 +0000"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/decorations/candle": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:56:43 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/cooked_chicken": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 15:09:33 +0000"
+    },
+    "done": true
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2025-06-11 14:56:44 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_byg_jacaranda_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_log": {
+    "criteria": {
+      "has_recipe": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "hexcasting:grant_patchi_book": {
+    "criteria": {
+      "tick": "2025-06-11 14:56:44 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_byg_maple_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/fishing_line": {
+    "criteria": {
+      "has_items": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-06-11 15:07:57 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/misc/neptinium_ingot_from_blasting": {
+    "criteria": {
+      "has_leggings": "2025-06-11 14:58:04 +0000",
+      "has_axe": "2025-06-11 14:58:04 +0000",
+      "has_helmet": "2025-06-11 14:58:05 +0000",
+      "has_fishing_rod": "2025-06-11 14:58:04 +0000",
+      "has_bow": "2025-06-11 14:58:04 +0000",
+      "has_chestplate": "2025-06-11 14:58:05 +0000",
+      "has_sword": "2025-06-11 14:58:04 +0000",
+      "has_fillet_knife": "2025-06-11 14:58:05 +0000",
+      "has_shovel": "2025-06-11 14:58:04 +0000",
+      "has_hoe": "2025-06-11 14:58:04 +0000",
+      "has_boots": "2025-06-11 14:58:05 +0000",
+      "has_pickaxe": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_byg_witch_hazel_planks": {
+    "criteria": {
+      "has_ingredient": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/twig_wand": {
+    "criteria": {
+      "has_item": "2025-06-11 15:08:49 +0000"
+    },
+    "done": true
+  },
+  "bambooeverything:recipes/bamboo_fence": {
+    "criteria": {
+      "has_bamboo": "2025-06-11 14:58:04 +0000",
+      "has_bundle": "2025-06-11 14:58:05 +0000"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/upgrade_tank": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:56:42 +0000"
+    },
+    "done": true
+  },
+  "constructionwand:recipes/misc/core_angel": {
+    "criteria": {
+      "has_item": "2025-06-11 15:04:26 +0000"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/upgrade_rudders": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:56:42 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/undergarden_group/wigglewood_boat": {
+    "criteria": {
+      "in_water": "2025-06-11 15:07:57 +0000"
+    },
+    "done": true
+  },
+  "modonomicon:modonomicon/root": {
+    "criteria": {
+      "modonomicon_present": "2025-06-11 14:56:44 +0000"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/deeperdarker/echo_boat": {
+    "criteria": {
+      "in_water": "2025-06-11 15:07:57 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/hamburger": {
+    "criteria": {
+      "has_beef": "2025-06-11 15:06:13 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/deepslate": {
+    "criteria": {
+      "has_deepslate": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/misc/tin_can_to_iron_nugget_from_blasting": {
+    "criteria": {
+      "has_items": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/dreamwood_wand": {
+    "criteria": {
+      "has_item": "2025-06-11 15:08:49 +0000"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/paraffin_wax_to_block": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:56:42 +0000"
+    },
+    "done": true
+  },
   "corail_woodcutter:recipes/from_sorting_planks": {
     "criteria": {
       "has_ingredient": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/pasta_with_meatballs": {
+    "criteria": {
+      "has_any_ingredient": "2025-06-11 15:06:12 +0000"
     },
     "done": true
   },
@@ -84,9 +899,9 @@
     },
     "done": true
   },
-  "bambooeverything:recipes/bamboo_door": {
+  "minecraft:recipes/food/cooked_chicken_from_grill_cooking": {
     "criteria": {
-      "has_bundle": "2025-06-11 14:58:04 +0000"
+      "has_chicken": "2025-06-11 15:09:33 +0000"
     },
     "done": true
   },
@@ -96,45 +911,21 @@
     },
     "done": true
   },
-  "bambooeverything:recipes/dry_bamboo_stairs": {
-    "criteria": {
-      "has_dry_bundle": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
   "immersivepetroleum:recipes/building_blocks/copper_block_paraffin_waxed": {
     "criteria": {
       "has_the_recipe": "2025-06-11 14:56:43 +0000"
     },
     "done": true
   },
-  "corail_woodcutter:recipes/from_byg_cypress_planks": {
+  "aquaculture:recipes/food/cooked_fish_fillet": {
     "criteria": {
-      "has_ingredient": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "immersivepetroleum:recipes/immersivepetroleum/speedboat": {
-    "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:42 +0000"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_byg_embur_planks": {
-    "criteria": {
-      "has_ingredient": "2025-06-11 14:58:05 +0000"
+      "has_items": "2025-06-11 14:58:04 +0000"
     },
     "done": true
   },
   "corail_woodcutter:recipes/from_byg_rainbow_eucalyptus_planks": {
     "criteria": {
       "has_ingredient": "2025-06-11 14:58:05 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/food/cooked_fish_fillet": {
-    "criteria": {
-      "has_items": "2025-06-11 14:58:04 +0000"
     },
     "done": true
   },
@@ -162,33 +953,15 @@
     },
     "done": true
   },
-  "corail_woodcutter:recipes/from_byg_cherry_planks": {
-    "criteria": {
-      "has_ingredient": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/tools/golden_fishing_rod": {
-    "criteria": {
-      "has_vanilla_rod": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
   "bambooeverything:recipes/bamboo_bundle_uncrafting": {
     "criteria": {
       "has_bundle": "2025-06-11 14:58:04 +0000"
     },
     "done": true
   },
-  "mcwfences:recipes/stone": {
+  "botania:main/flower_pickup": {
     "criteria": {
-      "has_stone": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/food/cooked_fish_fillet_from_campfire": {
-    "criteria": {
-      "has_items": "2025-06-11 14:58:05 +0000"
+      "flower": "2025-06-11 15:08:37 +0000"
     },
     "done": true
   },
@@ -201,6 +974,12 @@
   "mcwfences:recipes/warped": {
     "criteria": {
       "has_warped": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2025-06-11 15:04:26 +0000"
     },
     "done": true
   },
@@ -222,12 +1001,6 @@
     },
     "done": true
   },
-  "energymeter:recipes/energymeter/meter": {
-    "criteria": {
-      "has_item": "2025-06-11 14:58:05 +0000"
-    },
-    "done": true
-  },
   "immersivepetroleum:recipes/immersivepetroleum/seismic_survey_tool": {
     "criteria": {
       "has_the_recipe": "2025-06-11 14:56:42 +0000"
@@ -240,27 +1013,15 @@
     },
     "done": true
   },
-  "immersivepetroleum:recipes/immersivepetroleum/projector": {
-    "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:43 +0000"
-    },
-    "done": true
-  },
-  "immersivepetroleum:recipes/immersivepetroleum/asphalt_stair": {
-    "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:43 +0000"
-    },
-    "done": true
-  },
-  "mcwfences:recipes/jungle": {
-    "criteria": {
-      "has_jungle": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
   "tombstone:adventure/root": {
     "criteria": {
       "auto": "2025-06-11 14:56:45 +0000"
+    },
+    "done": true
+  },
+  "botania:main/root": {
+    "criteria": {
+      "flower": "2025-06-11 15:08:37 +0000"
     },
     "done": true
   },
@@ -270,45 +1031,21 @@
     },
     "done": true
   },
-  "mcwfences:recipes/oak": {
-    "criteria": {
-      "has_oak": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "mcwfences:recipes/spruce": {
-    "criteria": {
-      "has_spruce": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "mcwfences:recipes/hedge": {
-    "criteria": {
-      "has_birch": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
   "immersivepetroleum:recipes/immersivepetroleum/auto_lubricator": {
     "criteria": {
       "has_the_recipe": "2025-06-11 14:56:43 +0000"
     },
     "done": true
   },
-  "mcwfences:recipes/end": {
+  "immersivepetroleum:recipes/immersivepetroleum/upgrade_paddles": {
     "criteria": {
-      "has_end_brick": "2025-06-11 14:58:04 +0000"
+      "has_the_recipe": "2025-06-11 14:56:43 +0000"
     },
     "done": true
   },
   "corail_woodcutter:recipes/from_mining_planks": {
     "criteria": {
       "has_ingredient": "2025-06-11 14:58:05 +0000"
-    },
-    "done": true
-  },
-  "immersivepetroleum:recipes/immersivepetroleum/upgrade_paddles": {
-    "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:43 +0000"
     },
     "done": true
   },
@@ -342,21 +1079,9 @@
     },
     "done": true
   },
-  "aquaculture:recipes/misc/neptunium_ingot_from_nuggets": {
+  "botania:recipes/botania/petal_pink_double": {
     "criteria": {
-      "has_items": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "immersivepetroleum:recipes/building_blocks/oxidized_copper_paraffin_waxed": {
-    "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:42 +0000"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_byg_skyris_planks": {
-    "criteria": {
-      "has_ingredient": "2025-06-11 14:58:05 +0000"
+      "has_alt_item": "2025-06-11 15:08:49 +0000"
     },
     "done": true
   },
@@ -366,15 +1091,9 @@
     },
     "done": true
   },
-  "corail_woodcutter:recipes/from_transformation_planks": {
+  "croptopia:recipes/chicken_and_rice": {
     "criteria": {
-      "has_ingredient": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "immersivepetroleum:recipes/building_blocks/exposed_copper_paraffin_waxed": {
-    "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:43 +0000"
+      "has_chicken": "2025-06-11 15:09:34 +0000"
     },
     "done": true
   },
@@ -390,34 +1109,15 @@
     },
     "done": true
   },
-  "ae2wtlib:recipes/wireless_universal_terminal/upgrade_crafting": {
-    "criteria": {
-      "has_wct": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
   "corail_woodcutter:recipes/from_byg_mangrove_planks": {
     "criteria": {
       "has_ingredient": "2025-06-11 14:58:04 +0000"
     },
     "done": true
   },
-  "ae2wtlib:recipes/wireless_universal_terminal/ae": {
+  "rootsclassic:recipes/rootsclassic/runic_tablet": {
     "criteria": {
-      "has_wit": "2025-06-11 14:58:04 +0000",
-      "has_wpt": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_byg_palm_planks": {
-    "criteria": {
-      "has_ingredient": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "immersivepetroleum:recipes/immersiveengineering/toolupgrade_drill_lube": {
-    "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:43 +0000"
+      "has_old_root": "2025-06-11 15:09:25 +0000"
     },
     "done": true
   },
@@ -427,34 +1127,27 @@
     },
     "done": true
   },
-  "aquaculture:recipes/misc/gold_nugget_from_gold_fish": {
+  "undergarden:recipes/undergarden_group/smogstem_boat": {
     "criteria": {
-      "has_items": "2025-06-11 14:58:05 +0000"
+      "in_water": "2025-06-11 15:07:57 +0000"
     },
     "done": true
   },
-  "naturescompass:natures_compass_sapling": {
+  "silentgear:recipes/silentgear/sinew_fiber": {
     "criteria": {
-      "has_recipe": "2025-06-11 14:58:04 +0000"
+      "has_item": "2025-06-11 15:06:44 +0000"
     },
     "done": true
   },
-  "naturalist:recipes/food/cooked_egg": {
+  "croptopia:recipes/stuffed_poblanos": {
     "criteria": {
-      "has_eggs": "2025-06-11 14:58:05 +0000"
+      "has_beef": "2025-06-11 15:06:12 +0000"
     },
     "done": true
   },
-  "aquaculture:recipes/misc/gold_nugget_from_smelting": {
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/upgrade_base": {
     "criteria": {
-      "has_fishing_rod": "2025-06-11 14:58:04 +0000",
-      "has_fillet_knife": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/aquaculture/worm_farm": {
-    "criteria": {
-      "has_items": "2025-06-11 14:58:04 +0000"
+      "has_leather": "2025-06-11 15:06:44 +0000"
     },
     "done": true
   },
@@ -464,60 +1157,11 @@
     },
     "done": true
   },
-  "corail_woodcutter:recipes/from_byg_nightshade_planks": {
-    "criteria": {
-      "has_ingredient": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_canopy_planks": {
-    "criteria": {
-      "has_ingredient": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/food/cooked_fish_fillet_from_smoking": {
-    "criteria": {
-      "has_items": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "bambooeverything:recipes/bamboo_fence_gate": {
-    "criteria": {
-      "has_bamboo": "2025-06-11 14:58:04 +0000",
-      "has_bundle": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
   "ae2wtlib:recipes/quantum_bridge_card": {
     "criteria": {
       "has_wit": "2025-06-11 14:58:04 +0000",
       "has_wpt": "2025-06-11 14:58:05 +0000",
       "has_wct": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "occultism:occultism/root": {
-    "criteria": {
-      "occultism_present": "2025-06-11 14:56:44 +0000"
-    },
-    "done": true
-  },
-  "bambooeverything:recipes/dry_bamboo_bundle_uncrafting": {
-    "criteria": {
-      "has_dry_bundle": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_dark_planks": {
-    "criteria": {
-      "has_ingredient": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_twilight_oak_planks": {
-    "criteria": {
-      "has_ingredient": "2025-06-11 14:58:04 +0000"
     },
     "done": true
   },
@@ -534,9 +1178,9 @@
     },
     "done": true
   },
-  "immersivepetroleum:recipes/immersivepetroleum/asphalt": {
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/backpack": {
     "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:43 +0000"
+      "has_leather": "2025-06-11 15:06:44 +0000"
     },
     "done": true
   },
@@ -552,25 +1196,25 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-06-11 15:06:44 +0000"
+    },
+    "done": true
+  },
   "immersivepetroleum:recipes/building_blocks/cut_copper_slab_paraffin_waxed": {
     "criteria": {
       "has_the_recipe": "2025-06-11 14:56:42 +0000"
     },
     "done": true
   },
+  "naturesaura:positive_imbalance": {
+    "criteria": {
+      "triggered_in_code": "2025-06-11 15:09:22 +0000"
+    },
+    "done": true
+  },
   "corail_woodcutter:recipes/from_byg_aspen_planks": {
-    "criteria": {
-      "has_ingredient": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/decorations/spruce_fish_mount": {
-    "criteria": {
-      "has_items": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_byg_willow_planks": {
     "criteria": {
       "has_ingredient": "2025-06-11 14:58:04 +0000"
     },
@@ -588,12 +1232,6 @@
     },
     "done": true
   },
-  "aquaculture:recipes/misc/neptunium_ingot_from_neptunium_block": {
-    "criteria": {
-      "has_items": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
   "corail_woodcutter:recipes/from_byg_holly_planks": {
     "criteria": {
       "has_ingredient": "2025-06-11 14:58:04 +0000"
@@ -606,23 +1244,20 @@
     },
     "done": true
   },
-  "immersivepetroleum:recipes/building_blocks/exposed_cut_copper_stairs_paraffin_waxed": {
-    "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:42 +0000"
-    },
-    "done": true
-  },
   "byg:root": {
     "criteria": {
       "tick": "2025-06-11 14:56:44 +0000"
     },
     "done": true
   },
-  "aquaculture:recipes/aquaculture/light_hook": {
+  "byg:adventure/oh_the_biomes_youll_go": {
     "criteria": {
-      "has_items": "2025-06-11 14:58:04 +0000"
+      "byg:rainbow_beach": "2025-06-11 15:00:26 +0000",
+      "byg:red_oak_forest": "2025-06-11 15:07:00 +0000",
+      "byg:baobab_savanna": "2025-06-11 15:05:53 +0000",
+      "byg:amaranth_fields": "2025-06-11 15:00:42 +0000"
     },
-    "done": true
+    "done": false
   },
   "aquaculture:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
@@ -643,15 +1278,15 @@
     },
     "done": true
   },
-  "bambooeverything:recipes/bamboo_bundle": {
-    "criteria": {
-      "has_bamboo": "2025-06-11 14:58:05 +0000"
-    },
-    "done": true
-  },
   "bambooeverything:recipes/dry_bamboo_door": {
     "criteria": {
       "has_dry_bundle": "2025-06-11 14:58:04 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/gray_shiny_flower": {
+    "criteria": {
+      "has_item": "2025-06-11 15:08:37 +0000"
     },
     "done": true
   },
@@ -673,35 +1308,22 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2025-06-11 15:06:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:mangrove_swamp": "2025-06-11 14:56:45 +0000"
+      "minecraft:mangrove_swamp": "2025-06-11 14:56:45 +0000",
+      "minecraft:sparse_jungle": "2025-06-11 14:58:14 +0000",
+      "minecraft:river": "2025-06-11 15:00:45 +0000",
+      "minecraft:forest": "2025-06-11 15:03:32 +0000",
+      "minecraft:savanna": "2025-06-11 15:04:11 +0000",
+      "minecraft:plains": "2025-06-11 15:00:47 +0000"
     },
     "done": false
-  },
-  "corail_woodcutter:recipes/from_byg_ether_planks": {
-    "criteria": {
-      "has_ingredient": "2025-06-11 14:58:05 +0000"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_byg_pine_planks": {
-    "criteria": {
-      "has_ingredient": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "bambooeverything:recipes/bamboo_trapdoor": {
-    "criteria": {
-      "has_bundle": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "bambooeverything:recipes/dry_bamboo_trapdoor": {
-    "criteria": {
-      "has_dry_bundle": "2025-06-11 14:58:05 +0000"
-    },
-    "done": true
   },
   "corail_woodcutter:recipes/from_byg_imparius_planks": {
     "criteria": {
@@ -716,33 +1338,9 @@
     },
     "done": true
   },
-  "aquaculture:recipes/misc/jellyfish_to_slimeball": {
+  "undergarden:recipes/undergarden_group/grongle_boat": {
     "criteria": {
-      "has_items": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "immersivepetroleum:recipes/immersivepetroleum/petcoke_block_to_items": {
-    "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:42 +0000"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_byg_baobab_planks": {
-    "criteria": {
-      "has_ingredient": "2025-06-11 14:58:05 +0000"
-    },
-    "done": true
-  },
-  "mcwfences:recipes/nether": {
-    "criteria": {
-      "has_nether_brick": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "immersivepetroleum:recipes/building_blocks/oxidized_cut_copper_stairs_paraffin_waxed": {
-    "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:43 +0000"
+      "in_water": "2025-06-11 15:07:57 +0000"
     },
     "done": true
   },
@@ -753,33 +1351,9 @@
     },
     "done": true
   },
-  "immersivepetroleum:recipes/building_blocks/exposed_cut_copper_paraffin_waxed": {
-    "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:43 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/tools/diamond_fishing_rod": {
-    "criteria": {
-      "has_vanilla_rod": "2025-06-11 14:58:05 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/misc/red_mushroom_from_fish": {
-    "criteria": {
-      "has_items": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
   "immersivepetroleum:recipes/immersivepetroleum/asphalt2": {
     "criteria": {
       "has_the_recipe": "2025-06-11 14:56:43 +0000"
-    },
-    "done": true
-  },
-  "mcwfences:recipes/crimson": {
-    "criteria": {
-      "has_crimson": "2025-06-11 14:58:04 +0000"
     },
     "done": true
   },
@@ -801,9 +1375,9 @@
     },
     "done": true
   },
-  "aquaculture:recipes/tools/iron_fishing_rod": {
+  "botania:recipes/misc/dye_pink": {
     "criteria": {
-      "has_vanilla_rod": "2025-06-11 14:58:04 +0000"
+      "has_item": "2025-06-11 15:08:49 +0000"
     },
     "done": true
   },
@@ -820,15 +1394,15 @@
     },
     "done": true
   },
-  "ironfurnaces:coal": {
+  "minecraft:recipes/combat/leather_boots": {
     "criteria": {
-      "rainbowcoal": "2025-06-11 14:58:05 +0000"
+      "has_leather": "2025-06-11 15:06:44 +0000"
     },
     "done": true
   },
-  "mcwfences:recipes/prismarine": {
+  "ironfurnaces:coal": {
     "criteria": {
-      "has_qq": "2025-06-11 14:58:05 +0000"
+      "rainbowcoal": "2025-06-11 14:58:05 +0000"
     },
     "done": true
   },
@@ -838,27 +1412,15 @@
     },
     "done": true
   },
-  "mcwfences:recipes/bamboo": {
+  "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "has_bamboo": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "immersivepetroleum:recipes/immersivepetroleum/petcoke_items_to_block": {
-    "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:43 +0000"
+      "in_water": "2025-06-11 15:07:57 +0000"
     },
     "done": true
   },
   "bambooeverything:recipes/bamboo_slab": {
     "criteria": {
       "has_bundle": "2025-06-11 14:58:05 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/decorations/acacia_fish_mount": {
-    "criteria": {
-      "has_items": "2025-06-11 14:58:04 +0000"
     },
     "done": true
   },
@@ -869,40 +1431,15 @@
     },
     "done": true
   },
-  "aquaculture:recipes/misc/brown_mushroom_from_fish": {
-    "criteria": {
-      "has_items": "2025-06-11 14:58:05 +0000"
-    },
-    "done": true
-  },
   "mcwfences:recipes/acacia": {
     "criteria": {
       "has_acacia": "2025-06-11 14:58:04 +0000"
     },
     "done": true
   },
-  "bambooeverything:recipes/dry_bamboo_fence_gate": {
+  "immersiveengineering:recipes/immersiveengineering/crafting/powerpack": {
     "criteria": {
-      "has_dry_bundle": "2025-06-11 14:58:04 +0000",
-      "has_dry_bamboo": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_byg_cika_planks": {
-    "criteria": {
-      "has_ingredient": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/root": {
-    "criteria": {
-      "seeds": "2025-06-11 14:58:05 +0000"
-    },
-    "done": true
-  },
-  "sebastrnlib:grant_book_on_first_join": {
-    "criteria": {
-      "tick": "2025-06-11 14:56:44 +0000"
+      "has_leather": "2025-06-11 15:06:44 +0000"
     },
     "done": true
   },
@@ -918,46 +1455,21 @@
     },
     "done": true
   },
-  "aquaculture:recipes/aquaculture/iron_hook": {
-    "criteria": {
-      "has_items": "2025-06-11 14:58:05 +0000"
-    },
-    "done": true
-  },
   "immersivepetroleum:recipes/immersivepetroleum/upgrade_icebreaker": {
     "criteria": {
       "has_the_recipe": "2025-06-11 14:56:43 +0000"
     },
     "done": true
   },
-  "bambooeverything:recipes/bamboo_ladder": {
+  "aquaculture:recipes/aquaculture/iron_hook": {
     "criteria": {
-      "has_bamboo": "2025-06-11 14:58:04 +0000"
+      "has_items": "2025-06-11 14:58:05 +0000"
     },
     "done": true
   },
-  "corail_woodcutter:recipes/from_byg_redwood_planks": {
+  "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "has_ingredient": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/misc/iron_nugget_from_blasting": {
-    "criteria": {
-      "has_fishing_rod": "2025-06-11 14:58:04 +0000",
-      "has_fillet_knife": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/building_blocks/planks_from_driftwood": {
-    "criteria": {
-      "has_items": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "mcwfences:recipes/quartz": {
-    "criteria": {
-      "has_qq": "2025-06-11 14:58:05 +0000"
+      "in_water": "2025-06-11 15:07:57 +0000"
     },
     "done": true
   },
@@ -970,12 +1482,6 @@
   "aquaculture:recipes/aquaculture/double_hook": {
     "criteria": {
       "has_items": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "mekanism:root": {
-    "criteria": {
-      "automatic": "2025-06-11 14:56:44 +0000"
     },
     "done": true
   },
@@ -1003,6 +1509,12 @@
     },
     "done": true
   },
+  "croptopia:recipes/shaped_beef_stew": {
+    "criteria": {
+      "has_beef": "2025-06-11 15:06:12 +0000"
+    },
+    "done": true
+  },
   "immersivepetroleum:recipes/building_blocks/oxidized_cut_copper_paraffin_waxed": {
     "criteria": {
       "has_the_recipe": "2025-06-11 14:56:43 +0000"
@@ -1015,15 +1527,9 @@
     },
     "done": true
   },
-  "immersivepetroleum:recipes/decorations/candle": {
+  "botania:recipes/botania/petal_pink": {
     "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:43 +0000"
-    },
-    "done": true
-  },
-  "betterdeserttemples:root": {
-    "criteria": {
-      "always": "2025-06-11 14:56:44 +0000"
+      "has_alt_item": "2025-06-11 15:08:49 +0000"
     },
     "done": true
   },
@@ -1033,27 +1539,15 @@
     },
     "done": true
   },
-  "create:root": {
-    "criteria": {
-      "0": "2025-06-11 14:58:05 +0000"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_byg_jacaranda_planks": {
-    "criteria": {
-      "has_ingredient": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
   "corail_woodcutter:recipes/from_byg_mahogany_planks": {
     "criteria": {
       "has_ingredient": "2025-06-11 14:58:05 +0000"
     },
     "done": true
   },
-  "naturescompass:natures_compass_log": {
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
-      "has_recipe": "2025-06-11 14:58:04 +0000"
+      "has_beef": "2025-06-11 15:06:12 +0000"
     },
     "done": true
   },
@@ -1075,15 +1569,9 @@
     },
     "done": true
   },
-  "hexcasting:grant_patchi_book": {
+  "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
-      "tick": "2025-06-11 14:56:44 +0000"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_byg_maple_planks": {
-    "criteria": {
-      "has_ingredient": "2025-06-11 14:58:04 +0000"
+      "has_chicken": "2025-06-11 15:09:33 +0000"
     },
     "done": true
   },
@@ -1093,38 +1581,15 @@
     },
     "done": true
   },
-  "aquaculture:recipes/aquaculture/fishing_line": {
+  "croptopia:recipes/chicken_and_noodles": {
     "criteria": {
-      "has_items": "2025-06-11 14:58:04 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/misc/neptinium_ingot_from_blasting": {
-    "criteria": {
-      "has_leggings": "2025-06-11 14:58:04 +0000",
-      "has_axe": "2025-06-11 14:58:04 +0000",
-      "has_helmet": "2025-06-11 14:58:05 +0000",
-      "has_fishing_rod": "2025-06-11 14:58:04 +0000",
-      "has_bow": "2025-06-11 14:58:04 +0000",
-      "has_chestplate": "2025-06-11 14:58:05 +0000",
-      "has_sword": "2025-06-11 14:58:04 +0000",
-      "has_fillet_knife": "2025-06-11 14:58:05 +0000",
-      "has_shovel": "2025-06-11 14:58:04 +0000",
-      "has_hoe": "2025-06-11 14:58:04 +0000",
-      "has_boots": "2025-06-11 14:58:05 +0000",
-      "has_pickaxe": "2025-06-11 14:58:04 +0000"
+      "has_chicken": "2025-06-11 15:09:33 +0000"
     },
     "done": true
   },
   "immersivepetroleum:recipes/immersivepetroleum/upgrade_reinforced_hull": {
     "criteria": {
       "has_the_recipe": "2025-06-11 14:56:43 +0000"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_byg_witch_hazel_planks": {
-    "criteria": {
-      "has_ingredient": "2025-06-11 14:58:04 +0000"
     },
     "done": true
   },
@@ -1140,22 +1605,15 @@
     },
     "done": true
   },
-  "bambooeverything:recipes/bamboo_fence": {
+  "immersiveengineering:recipes/immersiveengineering/crafting/conveyor_basic": {
     "criteria": {
-      "has_bamboo": "2025-06-11 14:58:04 +0000",
-      "has_bundle": "2025-06-11 14:58:05 +0000"
+      "has_leather": "2025-06-11 15:06:44 +0000"
     },
     "done": true
   },
   "repurposed_structures:root": {
     "criteria": {
       "always": "2025-06-11 14:56:44 +0000"
-    },
-    "done": true
-  },
-  "immersivepetroleum:recipes/immersivepetroleum/upgrade_tank": {
-    "criteria": {
-      "has_the_recipe": "2025-06-11 14:56:42 +0000"
     },
     "done": true
   },
