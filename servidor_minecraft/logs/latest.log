@@ -8456,3 +8456,28 @@ java.lang.ClassNotFoundException: net.minecraft.client.resources.sounds.Abstract
 [11Jun2025 15:09:22.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio has made the advancement [Luscious Surroundings]
 [11Jun2025 15:11:03.319] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lafracio lost connection: Disconnected
 [11Jun2025 15:11:03.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio left the game
+[11Jun2025 15:14:09.422] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@14986be8
+[11Jun2025 15:14:09.459] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: lafracio[/127.189.239.53:58651] logged in with entity id 7402 at (-339.0910388366454, 64.0, -108.57361204920805)
+[11Jun2025 15:14:09.461] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to lafracio
+[11Jun2025 15:14:09.461] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to lafracio
+[11Jun2025 15:14:09.461] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to lafracio
+[11Jun2025 15:14:09.461] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to lafracio
+[11Jun2025 15:14:09.463] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to lafracio
+[11Jun2025 15:14:09.465] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to lafracio
+[11Jun2025 15:14:09.465] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to lafracio
+[11Jun2025 15:14:09.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio joined the game
+[11Jun2025 15:14:09.727] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: lafracio
+[11Jun2025 15:16:06.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio has made the advancement [Monster Hunter]
+[11Jun2025 15:17:28.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio has made the advancement [Not a Diamond]
+[11Jun2025 15:17:51.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio has made the advancement [A Strange Grave Dust]
+[11Jun2025 15:19:28.541] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4484ms or 89 ticks behind
+[11Jun2025 15:19:28.570] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lafracio moved too quickly! -1.5492085002583735,1.7531999805212024,-9.889510290609905
+[11Jun2025 15:19:28.698] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=37, y=74, z=-491} but found not block entity block Block{minecraft:air} at location
+[11Jun2025 15:19:28.698] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=37, y=74, z=-491}
+[11Jun2025 15:19:28.699] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=37, y=71, z=-490} but found not block entity block Block{minecraft:stone_stairs}[facing=east,half=bottom,shape=straight,waterlogged=false] at location
+[11Jun2025 15:19:28.699] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_stairs}[facing=east,half=bottom,shape=straight,waterlogged=false] but failed at location BlockPos{x=37, y=71, z=-490}
+[11Jun2025 15:19:28.699] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=38, y=71, z=-490} but found not block entity block Block{minecraft:stone} at location
+[11Jun2025 15:19:28.699] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=38, y=71, z=-490}
+[11Jun2025 15:19:52.943] [Worker-Main-44/WARN] [ModernFix/]: The namespace betterstrongholds contains an outdated structure file, which can cause worldgen lag. Please view debug.log for the full filename, determine which mod provides the structure, and report to the mod/datapack author, including the debug log.
+[11Jun2025 15:20:01.202] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8795ms or 175 ticks behind
+[11Jun2025 15:21:46.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio has made the advancement [Amateur Archaeologist]
