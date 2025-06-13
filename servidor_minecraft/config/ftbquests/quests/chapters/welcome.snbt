@@ -70,42 +70,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 5.0d
-			hover: ["mitchell52"]
-			image: "atm:textures/questpics/welcome/mitchell52_character.png"
-			rotation: 0.0d
-			width: 3.75d
-			x: -5.0d
-			y: 5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 5.0d
-			hover: ["oly2o6"]
-			image: "atm:textures/questpics/welcome/oly206_character.png"
-			rotation: 0.0d
-			width: 3.75d
-			x: -15.0d
-			y: 5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 5.0d
-			hover: ["MutantGumdrop"]
-			image: "atm:textures/questpics/welcome/mutantgumdrop_character.png"
-			rotation: 0.0d
-			width: 3.75d
-			x: -10.0d
-			y: 5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "atm:textures/questpics/welcome/signs/alfredgg_name.png"
@@ -125,18 +89,6 @@
 			width: 4.048543689320389d
 			x: 10.0d
 			y: 8.15d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "atm:textures/questpics/welcome/signs/mutant_name.png"
-			rotation: 0.0d
-			width: 5.515873015873016d
-			x: -10.0d
-			y: 8.26d
 		}
 		{
 			click: ""
@@ -190,19 +142,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 2.9083503054989817d
-			hover: [ ]
-			image: "atm:textures/questpics/welcome/signs/name_bar.png"
-			order: -1
-			rotation: 0.0d
-			width: 42.0d
-			x: 0.0d
-			y: 8.15d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 6.0d
 			hover: [ ]
 			image: "ftbquests:textures/block/base_input.png"
@@ -210,32 +149,6 @@
 			rotation: 0.0d
 			width: 4.0d
 			x: -5.0d
-			y: 5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 6.0d
-			hover: [ ]
-			image: "ftbquests:textures/block/base_input.png"
-			order: -3
-			rotation: 0.0d
-			width: 4.0d
-			x: -10.0d
-			y: 5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 6.0d
-			hover: [ ]
-			image: "ftbquests:textures/block/base_input.png"
-			order: -3
-			rotation: 0.0d
-			width: 4.0d
-			x: -15.0d
 			y: 5.0d
 		}
 		{

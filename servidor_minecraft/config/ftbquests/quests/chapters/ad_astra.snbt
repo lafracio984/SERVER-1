@@ -85,7 +85,7 @@
 			y: 4.0d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -1018,7 +1018,7 @@
 					item: {
 						Count: 1b
 						id: "ad_astra_giselle_addon:oxygen_can"
-						tag: {}
+						tag: { }
 					}
 					type: "item"
 				}

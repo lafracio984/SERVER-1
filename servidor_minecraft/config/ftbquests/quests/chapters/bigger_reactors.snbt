@@ -1,77 +1,67 @@
 {
-	id: "3C78926E5D301BA0"
-	group: "27AA266437DD1B5B"
-	order_index: 1
-	filename: "bigger_reactors"
-	title: "Bigger Reactors"
-	icon: "biggerreactors:reactor_power_tap"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bigger_reactors"
+	group: "27AA266437DD1B5B"
+	icon: "biggerreactors:reactor_power_tap"
+	id: "3C78926E5D301BA0"
 	images: [
 		{
+			click: "https://biggerseries.net/biggerreactors"
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: ["Click here to open the Wiki!"]
+			image: "atm:textures/questpics/biggerreactors/biggerreactorslogo.png"
+			rotation: 0.0d
+			width: 3.0d
 			x: -5.5d
 			y: -2.5d
-			width: 3.0d
-			height: 3.0d
-			rotation: 0.0d
-			image: "atm:textures/questpics/biggerreactors/biggerreactorslogo.png"
-			hover: ["Click here to open the Wiki!"]
-			click: "https://biggerseries.net/biggerreactors"
-			dev: false
-			corner: false
 		}
 		{
-			x: 2.0d
-			y: 3.5d
-			width: 0.25d
-			height: 0.25d
-			rotation: 45.0d
-			image: "allthemodium:textures/block/unobtainium_block.png"
-			hover: ["Full List of Moderators"]
 			click: "https://biggerseries.net/biggerreactors/reactor/moderators"
-			dev: false
 			corner: false
 			dependency: "4AD8363D7359A072"
+			dev: false
+			height: 0.25d
+			hover: ["Full List of Moderators"]
+			image: "allthemodium:textures/block/unobtainium_block.png"
+			rotation: 45.0d
+			width: 0.25d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
-			x: -3.0d
-			y: 11.5d
-			width: 0.25d
-			height: 0.25d
-			rotation: 45.0d
-			image: "biggerreactors:textures/block/turbine/fluid_port/inlet.png"
-			hover: ["List of Turbine Coils and Properties"]
 			click: "https://biggerseries.net/biggerreactors/turbine/coils"
-			dev: false
 			corner: false
 			dependency: "4415C9F8DA2D7E68"
+			dev: false
+			height: 0.25d
+			hover: ["List of Turbine Coils and Properties"]
+			image: "biggerreactors:textures/block/turbine/fluid_port/inlet.png"
+			rotation: 45.0d
+			width: 0.25d
+			x: -3.0d
+			y: 11.5d
 		}
 	]
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Welcome to &9Bigger Reactors&r!"
-			x: -5.5d
-			y: 0.5d
-			shape: "gear"
 			description: [
 				"Based off the original mod &eBig Reactors&r, this mod aims to provide fun and engaging power systems by making customizable multi-block reactors."
 				""
 				"The main element is of course, Uranium (same thing as Yellorite). You'll need this and a lot of coal and iron to get building. "
 			]
-			size: 2.0d
 			id: "7C4E4793DA887DE4"
-			tasks: [{
-				id: "7ECE44526077F3C9"
-				type: "item"
-				item: "alltheores:uranium_ingot"
-			}]
 			rewards: [
 				{
-					id: "5BFA258EB1204AC8"
-					type: "item"
-					item: "alltheores:raw_uranium"
 					count: 2
+					id: "5BFA258EB1204AC8"
+					item: "alltheores:raw_uranium"
 					random_bonus: 2
+					type: "item"
 				}
 				{
 					id: "5D196EE2BB1E921E"
@@ -79,26 +69,26 @@
 					xp: 10
 				}
 			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7ECE44526077F3C9"
+				item: "alltheores:uranium_ingot"
+				type: "item"
+			}]
+			title: "Welcome to &9Bigger Reactors&r!"
+			x: -5.5d
+			y: 0.5d
 		}
 		{
-			title: "Graphite for Casings"
-			x: -5.5d
-			y: 2.5d
-			subtitle: "Hardened Carbon"
+			dependencies: ["7C4E4793DA887DE4"]
 			description: [
 				"Before we can start building our reactor, we'll need to smelt some coal (or charcoal) to create &9Graphite Ingots&r."
 				""
 				"Graphite, coupled with Iron, is one of the main materials when making a Reactor."
 			]
-			dependencies: ["7C4E4793DA887DE4"]
 			hide: true
 			id: "4FA6BEA4E646B742"
-			tasks: [{
-				id: "4B83A0D1C2C3C226"
-				type: "item"
-				item: "biggerreactors:graphite_ingot"
-				count: 16L
-			}]
 			rewards: [
 				{
 					id: "07500C1CA8341D60"
@@ -106,26 +96,25 @@
 					xp: 10
 				}
 				{
-					id: "6E406BC76180F481"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "6E406BC76180F481"
 					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
+			subtitle: "Hardened Carbon"
+			tasks: [{
+				count: 16L
+				id: "4B83A0D1C2C3C226"
+				item: "biggerreactors:graphite_ingot"
+				type: "item"
+			}]
+			title: "Graphite for Casings"
+			x: -5.5d
+			y: 2.5d
 		}
 		{
-			title: "&dOur First Passive Reactor"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "kubejs:textures/quests/3x3completed.png"
-				}
-			}
-			x: -0.5d
-			y: 4.0d
-			shape: "hexagon"
-			subtitle: "Learning the Basics"
+			dependencies: ["75AD0CEBC1335915"]
 			description: [
 				"We're going to build the smallest passive reactor possible, the &93x3x3&r. The requirements for the quest are the exact amounts for what you need to build one."
 				""
@@ -139,58 +128,29 @@
 				""
 				"{image:atm:textures/questpics/biggerreactors/3x3_reactor.png width:150 height:150 align:1}"
 			]
-			dependencies: ["75AD0CEBC1335915"]
-			size: 2.0d
-			min_width: 500
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/quests/3x3completed.png"
+				}
+			}
 			id: "4AD8363D7359A072"
-			tasks: [
-				{
-					id: "70D705C81989D87C"
-					type: "item"
-					item: "biggerreactors:reactor_casing"
-					count: 21L
-				}
-				{
-					id: "1D03F9FD56B01515"
-					type: "item"
-					item: "biggerreactors:reactor_terminal"
-				}
-				{
-					id: "2ADB404DAFBD7AC5"
-					type: "item"
-					item: "biggerreactors:reactor_access_port"
-					count: 2L
-				}
-				{
-					id: "6E7930A4B00563C9"
-					type: "item"
-					item: "biggerreactors:reactor_power_tap"
-				}
-				{
-					id: "1C89B070388F3ADF"
-					type: "item"
-					item: "biggerreactors:reactor_control_rod"
-				}
-				{
-					id: "368FDD7ECB8C06CD"
-					type: "item"
-					item: "biggerreactors:reactor_fuel_rod"
-				}
-			]
+			min_width: 500
 			rewards: [
 				{
-					id: "20C12910482B20D7"
-					type: "item"
-					item: "biggerreactors:reactor_casing"
 					count: 4
+					id: "20C12910482B20D7"
+					item: "biggerreactors:reactor_casing"
 					random_bonus: 4
+					type: "item"
 				}
 				{
-					id: "6236B1E5DF191785"
-					type: "item"
-					item: "alltheores:uranium_ingot"
 					count: 2
+					id: "6236B1E5DF191785"
+					item: "alltheores:uranium_ingot"
 					random_bonus: 2
+					type: "item"
 				}
 				{
 					id: "3FEA5D1C2E8907D8"
@@ -198,39 +158,61 @@
 					xp: 500
 				}
 				{
-					id: "0C32A80527EB8A8F"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "0C32A80527EB8A8F"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Learning the Basics"
+			tasks: [
+				{
+					count: 21L
+					id: "70D705C81989D87C"
+					item: "biggerreactors:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "1D03F9FD56B01515"
+					item: "biggerreactors:reactor_terminal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2ADB404DAFBD7AC5"
+					item: "biggerreactors:reactor_access_port"
+					type: "item"
+				}
+				{
+					id: "6E7930A4B00563C9"
+					item: "biggerreactors:reactor_power_tap"
+					type: "item"
+				}
+				{
+					id: "1C89B070388F3ADF"
+					item: "biggerreactors:reactor_control_rod"
+					type: "item"
+				}
+				{
+					id: "368FDD7ECB8C06CD"
+					item: "biggerreactors:reactor_fuel_rod"
+					type: "item"
+				}
+			]
+			title: "&dOur First Passive Reactor"
+			x: -0.5d
+			y: 4.0d
 		}
 		{
-			title: "Reactor Building Components"
-			x: -5.5d
-			y: 4.0d
-			shape: "gear"
+			dependencies: ["4FA6BEA4E646B742"]
 			description: [
 				"To build a reactor, you'll need to start by making &6Reactor Casings&r."
 				""
 				"These make up the frame and walls of your reactor, although the walls can be replaced by &9Reactor Glass&r if you'd like to see inside of your reactor."
 			]
-			dependencies: ["4FA6BEA4E646B742"]
-			size: 1.5d
 			id: "4B9E9497E44D0096"
-			tasks: [
-				{
-					id: "76E0779D896F146B"
-					type: "item"
-					item: "biggerreactors:reactor_casing"
-					count: 4L
-				}
-				{
-					id: "4EA3FF4654F9D9FF"
-					type: "item"
-					item: "biggerreactors:reactor_glass"
-				}
-			]
 			rewards: [
 				{
 					id: "0303247B6A6C3F08"
@@ -238,19 +220,34 @@
 					xp: 10
 				}
 				{
-					id: "19C423870DAAA0DB"
-					type: "item"
-					item: "biggerreactors:reactor_casing"
 					count: 4
+					id: "19C423870DAAA0DB"
+					item: "biggerreactors:reactor_casing"
 					random_bonus: 4
+					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "76E0779D896F146B"
+					item: "biggerreactors:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "4EA3FF4654F9D9FF"
+					item: "biggerreactors:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "Reactor Building Components"
+			x: -5.5d
+			y: 4.0d
 		}
 		{
-			title: "Interacting with the Reactor"
-			x: -3.5d
-			y: 3.5d
-			shape: "diamond"
+			dependencies: ["4B9E9497E44D0096"]
 			description: [
 				"To extract power or items from your reactor, or even input fuel, you'll need these &crequired&r items."
 				""
@@ -258,27 +255,14 @@
 				""
 				"The &aAccess Ports&r are required for every reactor, and allows you to both input fuel (Uranium) from the reactor, or extract waste (Cyanite). While it only requires one, it's usually a good idea to have 2 per reactor. If the inventory can push &land&r pull (i.e. hopper), Cyanite will be pushed into the inventory as an input."
 			]
-			dependencies: ["4B9E9497E44D0096"]
 			id: "2A20000FAEC2E16A"
-			tasks: [
-				{
-					id: "565CF24C6904CC2A"
-					type: "item"
-					item: "biggerreactors:reactor_power_tap"
-				}
-				{
-					id: "0649EBB6E6516B4C"
-					type: "item"
-					item: "biggerreactors:reactor_access_port"
-				}
-			]
 			rewards: [
 				{
-					id: "772EB41C198591C5"
-					type: "item"
-					item: "biggerreactors:reactor_casing"
 					count: 2
+					id: "772EB41C198591C5"
+					item: "biggerreactors:reactor_casing"
 					random_bonus: 2
+					type: "item"
 				}
 				{
 					id: "1FA7A1D6E690613A"
@@ -286,12 +270,25 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "565CF24C6904CC2A"
+					item: "biggerreactors:reactor_power_tap"
+					type: "item"
+				}
+				{
+					id: "0649EBB6E6516B4C"
+					item: "biggerreactors:reactor_access_port"
+					type: "item"
+				}
+			]
+			title: "Interacting with the Reactor"
+			x: -3.5d
+			y: 3.5d
 		}
 		{
-			x: -3.0d
-			y: 4.0d
-			shape: "diamond"
-			subtitle: "The Heart of the Reactor"
+			dependencies: ["4B9E9497E44D0096"]
 			description: [
 				"The &dReactor Terminal&r is the heart of the reactor. When a reactor is formed, you can right-click the terminal to open up the reactor interface."
 				""
@@ -301,21 +298,15 @@
 				""
 				"{image:atm:textures/questpics/biggerreactors/reactor_passive.png width:200 height:175 align:1}"
 			]
-			dependencies: ["4B9E9497E44D0096"]
-			min_width: 300
 			id: "75AD0CEBC1335915"
-			tasks: [{
-				id: "62A0FE4CFAB9621B"
-				type: "item"
-				item: "biggerreactors:reactor_terminal"
-			}]
+			min_width: 300
 			rewards: [
 				{
-					id: "2975B436F7D91A8A"
-					type: "item"
-					item: "biggerreactors:reactor_casing"
 					count: 2
+					id: "2975B436F7D91A8A"
+					item: "biggerreactors:reactor_casing"
 					random_bonus: 2
+					type: "item"
 				}
 				{
 					id: "38C141F047926833"
@@ -323,18 +314,24 @@
 					xp: 100
 				}
 				{
-					id: "5508199460B01082"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "5508199460B01082"
 					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
+			shape: "diamond"
+			subtitle: "The Heart of the Reactor"
+			tasks: [{
+				id: "62A0FE4CFAB9621B"
+				item: "biggerreactors:reactor_terminal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
 		}
 		{
-			title: "Reactor Control Rods"
-			x: -3.5d
-			y: 4.5d
-			shape: "diamond"
+			dependencies: ["4B9E9497E44D0096"]
 			description: [
 				"Every reactor needs &9Reactor Control Rods&r and &9Fuel Rods&r. These control how fuel is inserted into the reactor."
 				""
@@ -344,28 +341,15 @@
 				""
 				"If you right-click on a Control Rod, you can control how much fuel is burned in the reactor by inserting or retracting the fuel rods. The further that you extend the rods, the less fuel that will be burned."
 			]
-			dependencies: ["4B9E9497E44D0096"]
-			min_width: 300
 			id: "7B4AAC741F0A6073"
-			tasks: [
-				{
-					id: "1FC2120A22A7BAEC"
-					type: "item"
-					item: "biggerreactors:reactor_control_rod"
-				}
-				{
-					id: "14C67262D9F8A9A8"
-					type: "item"
-					item: "biggerreactors:reactor_fuel_rod"
-				}
-			]
+			min_width: 300
 			rewards: [
 				{
-					id: "3165C37A9C6F4AA4"
-					type: "item"
-					item: "biggerreactors:reactor_casing"
 					count: 2
+					id: "3165C37A9C6F4AA4"
+					item: "biggerreactors:reactor_casing"
 					random_bonus: 2
+					type: "item"
 				}
 				{
 					id: "332E2A363D91F6E9"
@@ -374,16 +358,29 @@
 				}
 				{
 					id: "56A9536AEFBA6C7E"
-					type: "item"
 					item: "biggerreactors:reactor_fuel_rod"
+					type: "item"
 				}
 			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1FC2120A22A7BAEC"
+					item: "biggerreactors:reactor_control_rod"
+					type: "item"
+				}
+				{
+					id: "14C67262D9F8A9A8"
+					item: "biggerreactors:reactor_fuel_rod"
+					type: "item"
+				}
+			]
+			title: "Reactor Control Rods"
+			x: -3.5d
+			y: 4.5d
 		}
 		{
-			title: "Reactor Control Components"
-			x: -5.5d
-			y: 5.5d
-			shape: "diamond"
+			dependencies: ["4B9E9497E44D0096"]
 			description: [
 				"There are several optional blocks you can make to control your reactor."
 				""
@@ -391,28 +388,15 @@
 				""
 				"The &9Computer Port&r allows for control of the reactor using Lua scripts from mods like &eComputerCraft&r."
 			]
-			dependencies: ["4B9E9497E44D0096"]
-			optional: true
 			id: "0EF58EA4D6568E0C"
-			tasks: [
-				{
-					id: "079E5060492EC3F3"
-					type: "item"
-					item: "biggerreactors:reactor_computer_port"
-				}
-				{
-					id: "60970B9478031D80"
-					type: "item"
-					item: "biggerreactors:reactor_redstone_port"
-				}
-			]
+			optional: true
 			rewards: [
 				{
-					id: "2524F312CA03DA54"
-					type: "item"
-					item: "biggerreactors:reactor_casing"
 					count: 2
+					id: "2524F312CA03DA54"
+					item: "biggerreactors:reactor_casing"
 					random_bonus: 2
+					type: "item"
 				}
 				{
 					id: "24275D5434CE1CFF"
@@ -420,11 +404,25 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "079E5060492EC3F3"
+					item: "biggerreactors:reactor_computer_port"
+					type: "item"
+				}
+				{
+					id: "60970B9478031D80"
+					item: "biggerreactors:reactor_redstone_port"
+					type: "item"
+				}
+			]
+			title: "Reactor Control Components"
+			x: -5.5d
+			y: 5.5d
 		}
 		{
-			title: "Fueling our Passive Reactor"
-			x: 1.5d
-			y: 2.5d
+			dependencies: ["4AD8363D7359A072"]
 			description: [
 				"To insert fuel into the reactor, you'll need to pick one of the sides that has a &9Reactor Access Port&r and pump in &eUranium&r from an inventory."
 				""
@@ -432,15 +430,8 @@
 				""
 				"{image:atm:textures/questpics/biggerreactors/storage_example.png width:150 height:150 align:1}"
 			]
-			dependencies: ["4AD8363D7359A072"]
-			min_width: 300
 			id: "14E5349DD740D026"
-			tasks: [{
-				id: "159251A23C881D83"
-				type: "item"
-				item: "alltheores:uranium_ingot"
-				count: 16L
-			}]
+			min_width: 300
 			rewards: [
 				{
 					id: "55FBD6A7422569AB"
@@ -448,39 +439,38 @@
 					xp: 10
 				}
 				{
-					id: "29C27647CB5FC0F6"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "29C27647CB5FC0F6"
 					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
+			tasks: [{
+				count: 16L
+				id: "159251A23C881D83"
+				item: "alltheores:uranium_ingot"
+				type: "item"
+			}]
+			title: "Fueling our Passive Reactor"
+			x: 1.5d
+			y: 2.5d
 		}
 		{
-			title: "Dealing with Waste"
-			x: -0.5d
-			y: 6.0d
-			subtitle: "Waste Not Want Not or something...."
+			dependencies: ["4AD8363D7359A072"]
 			description: [
 				"Just as you'll need to pump in Fuel, burning Uranium creates a byproduct of &9Cyanite&r as a waste."
 				""
 				"Note: &eCyanite Dust&r is craftable. "
 			]
-			dependencies: ["4AD8363D7359A072"]
 			hide: true
 			id: "4745152F6FF242B3"
-			tasks: [{
-				id: "77F79D09A76CFF15"
-				type: "item"
-				item: "biggerreactors:cyanite_ingot"
-				count: 4L
-			}]
 			rewards: [
 				{
-					id: "7EC7EDABB4555220"
-					type: "item"
-					item: "biggerreactors:reactor_casing"
 					count: 4
+					id: "7EC7EDABB4555220"
+					item: "biggerreactors:reactor_casing"
 					random_bonus: 12
+					type: "item"
 				}
 				{
 					id: "3C59017024A58441"
@@ -488,31 +478,26 @@
 					xp: 50
 				}
 			]
+			subtitle: "Waste Not Want Not or something...."
+			tasks: [{
+				count: 4L
+				id: "77F79D09A76CFF15"
+				item: "biggerreactors:cyanite_ingot"
+				type: "item"
+			}]
+			title: "Dealing with Waste"
+			x: -0.5d
+			y: 6.0d
 		}
 		{
-			title: "Reprocessing our Waste"
-			x: -0.5d
-			y: 8.0d
+			dependencies: ["4745152F6FF242B3"]
 			description: [
 				"That waste is actually rather useful! Making a &9Cyanite Reprocessor&r allows you to convert &e2 Cyanite Ingots&r into &dBlutonium&r. The Reprocessor will also need water to complete the conversion. "
 				""
 				"Blutonium is used in several crafting recipes, but can also be used in a reactor for fuel, just like Uranium."
 			]
-			dependencies: ["4745152F6FF242B3"]
 			hide: true
 			id: "354086C858E10154"
-			tasks: [
-				{
-					id: "7E5DFBEB851FECA2"
-					type: "item"
-					item: "biggerreactors:cyanite_reprocessor"
-				}
-				{
-					id: "2305160826F7CAD8"
-					type: "item"
-					item: "biggerreactors:blutonium_ingot"
-				}
-			]
 			rewards: [
 				{
 					id: "601D8AF8D45F9818"
@@ -520,37 +505,43 @@
 					xp: 100
 				}
 				{
-					id: "080EADDE6EB76EAC"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "080EADDE6EB76EAC"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
+			tasks: [
+				{
+					id: "7E5DFBEB851FECA2"
+					item: "biggerreactors:cyanite_reprocessor"
+					type: "item"
+				}
+				{
+					id: "2305160826F7CAD8"
+					item: "biggerreactors:blutonium_ingot"
+					type: "item"
+				}
+			]
+			title: "Reprocessing our Waste"
+			x: -0.5d
+			y: 8.0d
 		}
 		{
-			title: "That's just Ludicrite!"
-			x: 1.0d
-			y: 8.0d
-			subtitle: "Don't judge these bad jokes."
+			dependencies: ["354086C858E10154"]
 			description: [
 				"We now have a way to create &5Ludicrite Blocks&r. "
 				""
 				"These are rather expensive to make, but they serve as great &9Moderators&r for reactors, as well as breaking down into Ingots to craft a component of the &cHeat Exchanger&r."
 			]
-			dependencies: ["354086C858E10154"]
 			id: "2DF6657DB4950B79"
-			tasks: [{
-				id: "6BFA36E89207A86C"
-				type: "item"
-				item: "biggerreactors:ludicrite_block"
-			}]
 			rewards: [
 				{
-					id: "488B1473A4A73EBC"
-					type: "item"
-					item: "biggerreactors:blutonium_ingot"
 					count: 2
+					id: "488B1473A4A73EBC"
+					item: "biggerreactors:blutonium_ingot"
 					random_bonus: 1
+					type: "item"
 				}
 				{
 					id: "4C0EE9B972E1C3E0"
@@ -558,45 +549,37 @@
 					xp: 250
 				}
 				{
-					id: "23C4AEE096F33CB3"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "23C4AEE096F33CB3"
 					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
+			subtitle: "Don't judge these bad jokes."
+			tasks: [{
+				id: "6BFA36E89207A86C"
+				item: "biggerreactors:ludicrite_block"
+				type: "item"
+			}]
+			title: "That's just Ludicrite!"
+			x: 1.0d
+			y: 8.0d
 		}
 		{
-			title: "Making Turbines"
-			x: -0.5d
-			y: 10.0d
-			shape: "hexagon"
+			dependencies: ["354086C858E10154"]
 			description: [
 				"Now that we have Blutonium, we can create the heart of the Turbine, the &9Turbine Terminal&r."
 				""
 				"Turbines are multi-block structures, just like Reactors! They input heated liquids like &7Steam&r made by &dActive&r Reactors to create TONS of power! We'll need a few other pieces to be able to build our first one."
 			]
-			dependencies: ["354086C858E10154"]
 			id: "4415C9F8DA2D7E68"
-			tasks: [
-				{
-					id: "3FD4E648D3560D1B"
-					type: "item"
-					item: "biggerreactors:turbine_casing"
-					count: 4L
-				}
-				{
-					id: "738B3094737D9A6A"
-					type: "item"
-					item: "biggerreactors:turbine_terminal"
-				}
-			]
 			rewards: [
 				{
-					id: "6EE855A0C663EDDF"
-					type: "item"
-					item: "biggerreactors:turbine_casing"
 					count: 2
+					id: "6EE855A0C663EDDF"
+					item: "biggerreactors:turbine_casing"
 					random_bonus: 2
+					type: "item"
 				}
 				{
 					id: "5C20A5831F6F1EE9"
@@ -604,18 +587,32 @@
 					xp: 100
 				}
 				{
-					id: "01FB731CE2FD9481"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "01FB731CE2FD9481"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "3FD4E648D3560D1B"
+					item: "biggerreactors:turbine_casing"
+					type: "item"
+				}
+				{
+					id: "738B3094737D9A6A"
+					item: "biggerreactors:turbine_terminal"
+					type: "item"
+				}
+			]
+			title: "Making Turbines"
+			x: -0.5d
+			y: 10.0d
 		}
 		{
-			title: "Reactor Moderators"
-			x: 1.5d
-			y: 4.0d
-			subtitle: "They are Moderators, not Coolants."
+			dependencies: ["4AD8363D7359A072"]
 			description: [
 				"Reactor &9Moderators&r are materials placed inside of a reactor to change how it performs, based on the properties of the moderator. These are placed &linside&r of the reactor during construction."
 				""
@@ -630,15 +627,8 @@
 				""
 				"Adding these inside of your reactor can increase the overall performance and output of your reactor. Try using diamond blocks in the early game!"
 			]
-			dependencies: ["4AD8363D7359A072"]
-			min_width: 300
 			id: "73362EDC984B8A0F"
-			tasks: [{
-				id: "3B3C22507E3FBACC"
-				type: "item"
-				item: "minecraft:diamond_block"
-				count: 3L
-			}]
+			min_width: 300
 			rewards: [
 				{
 					id: "56D7ED254FC3A540"
@@ -646,32 +636,32 @@
 					xp: 50
 				}
 				{
-					id: "6150F69F6D20EBFB"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "6150F69F6D20EBFB"
 					table_id: 4196188979167302596L
+					type: "loot"
 				}
 			]
+			subtitle: "They are Moderators, not Coolants."
+			tasks: [{
+				count: 3L
+				id: "3B3C22507E3FBACC"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			title: "Reactor Moderators"
+			x: 1.5d
+			y: 4.0d
 		}
 		{
-			title: "Converting our \"Passive\" Reactor"
-			x: 1.0d
-			y: 10.0d
-			subtitle: "To Make Steam!!"
+			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
 				"When a reactor is Passive, it just burns fuel directly into power. When you add a &dReactor Coolant Port&r to one of the reactor's walls, it converts the reactor to an Active reactor, which will instead burn fuel to heat fluids, like water into &9Steam&r. You cannot have a &cPower Tap&r and a Coolant Port on the same reactor. "
 				""
 				"Once placed, it will also convert the reactor's interface, showing more information about your reactor. You will now have a tank for the coolant, a tank for the exhaust, and can see the &9Exhaust Generation Rate&r. For example: If you're pumping in water, this will be the steam output."
 			]
-			dependencies: ["4415C9F8DA2D7E68"]
-			min_width: 300
 			id: "476755275B948A5F"
-			tasks: [{
-				id: "3A1B16362F885F1F"
-				type: "item"
-				item: "biggerreactors:reactor_coolant_port"
-				count: 2L
-			}]
+			min_width: 300
 			rewards: [
 				{
 					id: "450F59D9CB0FEF7A"
@@ -679,17 +669,25 @@
 					xp: 10
 				}
 				{
-					id: "44BF0BA518FE9E1D"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "44BF0BA518FE9E1D"
 					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
+			subtitle: "To Make Steam!!"
+			tasks: [{
+				count: 2L
+				id: "3A1B16362F885F1F"
+				item: "biggerreactors:reactor_coolant_port"
+				type: "item"
+			}]
+			title: "Converting our \"Passive\" Reactor"
+			x: 1.0d
+			y: 10.0d
 		}
 		{
-			title: "Expanding Our Reactors"
-			x: 1.5d
-			y: 5.5d
+			dependencies: ["4AD8363D7359A072"]
 			description: [
 				"Reactors are multi-block structures, meaning you can create your own custom size!"
 				""
@@ -701,15 +699,8 @@
 				""
 				"The wider the reactor, the more efficient it is, as long as you don't add more fuel rods to the design. This means less consumption overall."
 			]
-			dependencies: ["4AD8363D7359A072"]
-			min_width: 300
 			id: "3F9D553C9FA64F2A"
-			tasks: [{
-				id: "52294DB4AE793F9C"
-				type: "item"
-				item: "biggerreactors:reactor_casing"
-				count: 16L
-			}]
+			min_width: 300
 			rewards: [
 				{
 					id: "2D71A6EF1CA59FA7"
@@ -717,18 +708,24 @@
 					xp: 10
 				}
 				{
-					id: "52181A03434A605B"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "52181A03434A605B"
 					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
+			tasks: [{
+				count: 16L
+				id: "52294DB4AE793F9C"
+				item: "biggerreactors:reactor_casing"
+				type: "item"
+			}]
+			title: "Expanding Our Reactors"
+			x: 1.5d
+			y: 5.5d
 		}
 		{
-			title: "Turbine Ports"
-			x: -3.0d
-			y: 9.0d
-			shape: "diamond"
+			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
 				"To interact with our Turbine, we'll need several &6Ports&r."
 				""
@@ -738,27 +735,14 @@
 				""
 				"You can also make a &eComputer Port&r, but it is completely optional. It allows you to interact with the Turbine with ComputerCraft using scripts."
 			]
-			dependencies: ["4415C9F8DA2D7E68"]
 			id: "186731580B14F9D2"
-			tasks: [
-				{
-					id: "5E9CEEEE330B1DE0"
-					type: "item"
-					item: "biggerreactors:turbine_fluid_port"
-				}
-				{
-					id: "18EB6570007F534A"
-					type: "item"
-					item: "biggerreactors:turbine_power_tap"
-				}
-			]
 			rewards: [
 				{
-					id: "6F76A59F202AD944"
-					type: "item"
-					item: "biggerreactors:turbine_casing"
 					count: 4
+					id: "6F76A59F202AD944"
+					item: "biggerreactors:turbine_casing"
 					random_bonus: 4
+					type: "item"
 				}
 				{
 					id: "7BC028EFCCFAF39A"
@@ -766,12 +750,25 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5E9CEEEE330B1DE0"
+					item: "biggerreactors:turbine_fluid_port"
+					type: "item"
+				}
+				{
+					id: "18EB6570007F534A"
+					item: "biggerreactors:turbine_power_tap"
+					type: "item"
+				}
+			]
+			title: "Turbine Ports"
+			x: -3.0d
+			y: 9.0d
 		}
 		{
-			title: "Creating The Turbine Shaft"
-			x: -4.0d
-			y: 10.0d
-			shape: "diamond"
+			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
 				"To get a Turbine spinning, we'll need these &crequired&r components:"
 				""
@@ -785,42 +782,21 @@
 				""
 				"{image:atm:textures/questpics/biggerreactors/turbine_horizontal_shaft.png width:200 height:125 align:1}"
 			]
-			dependencies: ["4415C9F8DA2D7E68"]
-			min_width: 300
 			id: "67AFCBCE7AAC3089"
-			tasks: [
-				{
-					id: "69497C419271A8F2"
-					type: "item"
-					item: "biggerreactors:turbine_rotor_bearing"
-					count: 2L
-				}
-				{
-					id: "05559BFC34BEBF4A"
-					type: "item"
-					item: "biggerreactors:turbine_rotor_shaft"
-					count: 2L
-				}
-				{
-					id: "42F16075D25E4A94"
-					type: "item"
-					item: "biggerreactors:turbine_rotor_blade"
-					count: 4L
-				}
-			]
+			min_width: 300
 			rewards: [
 				{
-					id: "75FCB874DBC8BC86"
-					type: "item"
-					item: "biggerreactors:turbine_rotor_blade"
 					count: 4
+					id: "75FCB874DBC8BC86"
+					item: "biggerreactors:turbine_rotor_blade"
+					type: "item"
 				}
 				{
-					id: "6A0A9AAD57654338"
-					type: "item"
-					item: "biggerreactors:turbine_glass"
 					count: 4
+					id: "6A0A9AAD57654338"
+					item: "biggerreactors:turbine_glass"
 					random_bonus: 4
+					type: "item"
 				}
 				{
 					id: "433D5587FE499E95"
@@ -828,12 +804,33 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 2L
+					id: "69497C419271A8F2"
+					item: "biggerreactors:turbine_rotor_bearing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "05559BFC34BEBF4A"
+					item: "biggerreactors:turbine_rotor_shaft"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "42F16075D25E4A94"
+					item: "biggerreactors:turbine_rotor_blade"
+					type: "item"
+				}
+			]
+			title: "Creating The Turbine Shaft"
+			x: -4.0d
+			y: 10.0d
 		}
 		{
-			title: "Turbine Coils"
-			x: -3.0d
-			y: 11.0d
-			shape: "diamond"
+			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
 				"&dTurbine Coils&r are blocks placed around a shaft at one end of a Turbine. These are required to generate power from the turbine."
 				""
@@ -841,77 +838,7 @@
 				""
 				"{image:atm:textures/questpics/biggerreactors/turbine_coil.png width:150 height:100 align:1}"
 			]
-			dependencies: ["4415C9F8DA2D7E68"]
 			id: "3FC7FDAF84871963"
-			tasks: [{
-				id: "188BA58BAB4292B0"
-				type: "item"
-				title: "Turbine Coils"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "minecraft:iron_block"
-								Count: 1b
-							}
-							{
-								id: "minecraft:copper_block"
-								Count: 1b
-							}
-							{
-								id: "minecraft:gold_block"
-								Count: 1b
-							}
-							{
-								id: "alltheores:osmium_block"
-								Count: 1b
-							}
-							{
-								id: "alltheores:platinum_block"
-								Count: 1b
-							}
-							{
-								id: "alltheores:silver_block"
-								Count: 1b
-							}
-							{
-								id: "alltheores:invar_block"
-								Count: 1b
-							}
-							{
-								id: "alltheores:electrum_block"
-								Count: 1b
-							}
-							{
-								id: "alltheores:enderium_block"
-								Count: 1b
-							}
-							{
-								id: "allthemodium:allthemodium_block"
-								Count: 1b
-							}
-							{
-								id: "allthemodium:vibranium_block"
-								Count: 1b
-							}
-							{
-								id: "allthemodium:unobtainium_block"
-								Count: 1b
-							}
-							{
-								id: "alltheores:steel_block"
-								Count: 1b
-							}
-							{
-								id: "biggerreactors:ludicrite_block"
-								Count: 1b
-							}
-						]
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "54346236C9443772"
@@ -919,25 +846,93 @@
 					xp: 100
 				}
 				{
-					id: "2719368F51041BAD"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "2719368F51041BAD"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "188BA58BAB4292B0"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:iron_block"
+							}
+							{
+								Count: 1b
+								id: "minecraft:copper_block"
+							}
+							{
+								Count: 1b
+								id: "minecraft:gold_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:osmium_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:platinum_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:silver_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:invar_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:electrum_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:enderium_block"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_block"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_block"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:steel_block"
+							}
+							{
+								Count: 1b
+								id: "biggerreactors:ludicrite_block"
+							}
+						]
+					}
+				}
+				title: "Turbine Coils"
+				type: "item"
+			}]
+			title: "Turbine Coils"
+			x: -3.0d
+			y: 11.0d
 		}
 		{
-			title: "&dOur First Turbine"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "kubejs:textures/quests/side_turbine_5x4x5.png"
-				}
-			}
-			x: -5.5d
-			y: 10.0d
-			shape: "hexagon"
+			dependencies: [
+				"3FC7FDAF84871963"
+				"67AFCBCE7AAC3089"
+				"186731580B14F9D2"
+				"775D176081DD75F5"
+			]
 			description: [
 				"Instead of building the smallest Turbine at this point, it's better to build a Turbine based off of the design of your &9Active Reactor&r."
 				""
@@ -947,52 +942,15 @@
 				""
 				"{image:atm:textures/questpics/biggerreactors/reactor_turbine_example.png width:300 height:150 align:1}"
 			]
-			dependencies: [
-				"3FC7FDAF84871963"
-				"67AFCBCE7AAC3089"
-				"186731580B14F9D2"
-				"775D176081DD75F5"
-			]
-			size: 2.0d
-			min_width: 300
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/quests/side_turbine_5x4x5.png"
+				}
+			}
 			id: "4ED36AA3766E842B"
-			tasks: [
-				{
-					id: "4A94CC9DA47A370C"
-					type: "item"
-					title: "Quest Task Screens"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "ftbquests:screen_1"
-									Count: 1b
-								}
-								{
-									id: "ftbquests:screen_3"
-									Count: 1b
-								}
-								{
-									id: "ftbquests:screen_5"
-									Count: 1b
-								}
-								{
-									id: "ftbquests:screen_7"
-									Count: 1b
-								}
-							]
-						}
-					}
-				}
-				{
-					id: "24146672439051F5"
-					type: "forge_energy"
-					value: 10000000L
-					max_input: 100000L
-				}
-			]
+			min_width: 300
 			rewards: [
 				{
 					id: "5AE542B84586D0BA"
@@ -1000,38 +958,70 @@
 					xp: 1000
 				}
 				{
-					id: "6612F39435CC428F"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "6612F39435CC428F"
 					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4A94CC9DA47A370C"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ftbquests:screen_1"
+								}
+								{
+									Count: 1b
+									id: "ftbquests:screen_3"
+								}
+								{
+									Count: 1b
+									id: "ftbquests:screen_5"
+								}
+								{
+									Count: 1b
+									id: "ftbquests:screen_7"
+								}
+							]
+						}
+					}
+					title: "Quest Task Screens"
+					type: "item"
+				}
+				{
+					id: "24146672439051F5"
+					max_input: 100000L
+					type: "forge_energy"
+					value: 10000000L
+				}
+			]
+			title: "&dOur First Turbine"
+			x: -5.5d
+			y: 10.0d
 		}
 		{
-			title: "Turbine Construction"
-			x: -2.0d
-			y: 10.0d
-			shape: "diamond"
+			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
 				"The &9Turbine&r has a minimum shape of 5x4x5, but can go up to 32x192x32 in size."
 				""
 				"Just like the Reactor, the frame must be built out of &dCasings&r, but the walls can be &9Turbine Glass&r instead."
 			]
-			dependencies: ["4415C9F8DA2D7E68"]
 			id: "2D592669F4D41793"
-			tasks: [{
-				id: "2FC2A5929C2E0EA9"
-				type: "item"
-				item: "biggerreactors:turbine_glass"
-				count: 4L
-			}]
 			rewards: [
 				{
-					id: "01C09E75947CCBF5"
-					type: "item"
-					item: "biggerreactors:turbine_glass"
 					count: 2
+					id: "01C09E75947CCBF5"
+					item: "biggerreactors:turbine_glass"
 					random_bonus: 2
+					type: "item"
 				}
 				{
 					id: "46A906727C46868C"
@@ -1039,10 +1029,19 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "2FC2A5929C2E0EA9"
+				item: "biggerreactors:turbine_glass"
+				type: "item"
+			}]
+			title: "Turbine Construction"
+			x: -2.0d
+			y: 10.0d
 		}
 		{
-			x: -3.0d
-			y: 10.0d
+			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
 				"Right-clicking on a Turbine Terminal when it is fully built will show you the Turbine Interface."
 				""
@@ -1052,20 +1051,21 @@
 				""
 				"{image:atm:textures/questpics/biggerreactors/turbine_ui.png width:150 height:140 align:1}"
 			]
-			dependencies: ["4415C9F8DA2D7E68"]
-			min_width: 300
 			id: "775D176081DD75F5"
-			tasks: [{
-				id: "2905C4386A407A1E"
-				type: "checkmark"
-				title: "The Turbine Interface"
-			}]
+			min_width: 300
 			rewards: [{
 				id: "7CD6A1F962D2C310"
 				type: "xp"
 				xp: 10
 			}]
+			tasks: [{
+				id: "2905C4386A407A1E"
+				title: "The Turbine Interface"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 10.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Bigger Reactors"
 }

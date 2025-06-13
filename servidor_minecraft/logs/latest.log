@@ -8441,3 +8441,20 @@ java.lang.ClassNotFoundException: net.minecraft.client.resources.sounds.Abstract
 [13Jun2025 16:47:55.460] [Server thread/INFO] [tombstone/]: The player lafracio has successfully been saved
 [13Jun2025 16:48:47.756] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
 [13Jun2025 16:48:56.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [lafracio: Set own game mode to Creative Mode]
+[13Jun2025 16:49:09.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio has reached the goal [Here They Come]
+[13Jun2025 16:49:25.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio has made the advancement [Monster Hunter]
+[13Jun2025 16:49:29.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio has made the advancement [Not a Diamond]
+[13Jun2025 16:49:33.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio has made the advancement [Knowledge of Death]
+[13Jun2025 16:49:33.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio has made the advancement [Ambush]
+[13Jun2025 16:49:34.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio has made the advancement [All Along The Watchtower]
+[13Jun2025 16:50:49.400] [Worker-Main-5/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=159, y=8, z=354}
+[13Jun2025 16:51:07.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio has made the advancement ['X' Marks the Spot]
+[13Jun2025 16:52:24.396] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6792ms or 135 ticks behind
+[13Jun2025 16:53:01.657] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[13Jun2025 16:53:51.621] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3817ms or 76 ticks behind
+[13Jun2025 16:53:51.705] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lafracio moved too quickly! 10.00664394587875,0.49520087700592796,0.8335156381353954
+[13Jun2025 16:55:15.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [lafracio: Set own game mode to Spectator Mode]
+[13Jun2025 16:57:05.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio has made the advancement [Luscious Surroundings]
+[13Jun2025 16:58:29.836] [Worker-Main-5/WARN] [ModernFix/]: The namespace ars_elemental contains an outdated structure file, which can cause worldgen lag. Please view debug.log for the full filename, determine which mod provides the structure, and report to the mod/datapack author, including the debug log.
+[13Jun2025 17:00:03.504] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lafracio lost connection: Disconnected
+[13Jun2025 17:00:03.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lafracio left the game
